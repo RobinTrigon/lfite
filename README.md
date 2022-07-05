@@ -6,11 +6,11 @@
 
 ```yaml
 -Details:
-      -Name: red0
-      -type: confedential redirection vulnablity scanning tool .
+      -Name: lfite
+      -type: confedential lfi scanning tool .
       -language: bash
       -requirements: gowitness , qsreplace & tamu (Personal version)
-      -install: git clone https://github.com/RobinTrigon/red0/ ; cd red0 ; bash run.sh.sh
+      -install: git clone https://github.com/RobinTrigon/lfite ; cd lfite ; bash run.sh
       -thanks: the universe.
       -coded by: Robin Trigon | 3rr0r-404
       -note: sorry bro this tool is not for u coz tamu (Personal version) is not exist in your computer.
